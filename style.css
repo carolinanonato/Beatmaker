@@ -31,7 +31,7 @@ svg {
 }
 
 .hihat-pad {
-  background: rgb(173, 179, 140);
+  background: rgb(189, 201, 121);
 }
 
 .kick-pad.active {
@@ -43,7 +43,7 @@ svg {
 }
 
 .hihat-pad.active {
-  background: rgb(185, 201, 97);
+  background: rgb(250, 234, 166);
 }
 
 .hihat-track,
@@ -106,4 +106,13 @@ select {
   padding: 1rem;
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
