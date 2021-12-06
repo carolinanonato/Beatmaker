@@ -108,6 +108,10 @@ select {
   margin-left: 1rem;
 }
 
+.mute.active {
+  background: rgb(202, 199, 199);
+}
+
 @keyframes playTrack {
   from {
     transform: scale(1);
